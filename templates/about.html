@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos</title>
+</head>
+
+<body>
+    <h1>À propos de moi</h1>
+    <p>Je suis en train d'apprendre à développer des applications web avec Flask !</p>
+    <h1>Carte des destinations</h1>
+    <iframe src="{{ url_for('static', filename='map.html') }}" width="100%" height="500px"></iframe>
+    <form method="POST">
+        <label for="destination-select">Choisissez une destination :</label>
+        <select id="destination-select" name="destination">
+            <option value="Gare de Calais Ville">Gare de Calais Ville</option>
+            <option value="Gare de Calais Fréthun">Gare de Calais Fréthun</option>
+            <option value="Université du Littoral Côte d'Opale">ULCO</option>
+        </select>
+
+        <label for="mode-select">Mode de transport :</label>
+        <select id="mode-select" name="mode">
+            <option value="vol_oiseau">À vol d'oiseau</option>
+            <option value="pied">À pied</option>
+            <option value="train">En train</option>
+            <option value="bus">En bus</option>
+            <option value="trajet_complet">Trajet complet</option>
+        </select>
+
+        <button type="submit">Afficher le chemin</button>
+    </form>
+    {% if map_html %}
+    <iframe src="{{ url_for('static', filename='map.html') }}" width="100%" height="400px"></iframe>
+    {% endif %}
+    {% if trajet_temps %}
+    <p><strong>{{ trajet_temps }}</strong></p>
+    {% endif %}
+</body>
+
+</html>

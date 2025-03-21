@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_daa6fb0550abdeafd0c38fd1bbb24f90 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_daa6fb0550abdeafd0c38fd1bbb24f90" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_daa6fb0550abdeafd0c38fd1bbb24f90 = L.map(
+                "map_daa6fb0550abdeafd0c38fd1bbb24f90",
+                {
+                    center: [50.945, 1.85],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7bb699a1d27d4f13b77e743b350eaaa6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7bb699a1d27d4f13b77e743b350eaaa6.addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+            var marker_37a21a38f99a65abe5e85b8bc22810b1 = L.marker(
+                [50.928, 1.809],
+                {
+}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+            var icon_764834afbddeb374a9302d9fea5c4685 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8a56914ae3fd20ef243b7dfd5db5617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d268c7081d0709a589e29ad7d43692fe = $(`<div id="html_d268c7081d0709a589e29ad7d43692fe" style="width: 100.0%; height: 100.0%;">Gare de Calais Fréthun</div>`)[0];
+                popup_a8a56914ae3fd20ef243b7dfd5db5617.setContent(html_d268c7081d0709a589e29ad7d43692fe);
+            
+        
+
+        marker_37a21a38f99a65abe5e85b8bc22810b1.bindPopup(popup_a8a56914ae3fd20ef243b7dfd5db5617)
+        ;
+
+        
+    
+    
+                marker_37a21a38f99a65abe5e85b8bc22810b1.setIcon(icon_764834afbddeb374a9302d9fea5c4685);
+            
+    
+            var marker_1686da92973e451574245c4063c8fb5e = L.marker(
+                [50.951, 1.858],
+                {
+}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+            var icon_871b996665cd375eaeb735fd945cc07e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a46c3571a5e07a6fbd3241d6fc8b2db5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb67063600ca7127c262fb61a86b6df9 = $(`<div id="html_eb67063600ca7127c262fb61a86b6df9" style="width: 100.0%; height: 100.0%;">Gare de Calais Ville</div>`)[0];
+                popup_a46c3571a5e07a6fbd3241d6fc8b2db5.setContent(html_eb67063600ca7127c262fb61a86b6df9);
+            
+        
+
+        marker_1686da92973e451574245c4063c8fb5e.bindPopup(popup_a46c3571a5e07a6fbd3241d6fc8b2db5)
+        ;
+
+        
+    
+    
+                marker_1686da92973e451574245c4063c8fb5e.setIcon(icon_871b996665cd375eaeb735fd945cc07e);
+            
+    
+            var marker_0bd876d6479cbc80c62c10c04069fe98 = L.marker(
+                [50.96, 1.845],
+                {
+}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+            var icon_1f46d187312941d21d6850c295fbb6a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eac7ad05dd1b85f074340338b71851e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7d1424dbc1f1f32ff281cc5fc7c7332 = $(`<div id="html_a7d1424dbc1f1f32ff281cc5fc7c7332" style="width: 100.0%; height: 100.0%;">Université du Littoral Côte d'Opale</div>`)[0];
+                popup_eac7ad05dd1b85f074340338b71851e5.setContent(html_a7d1424dbc1f1f32ff281cc5fc7c7332);
+            
+        
+
+        marker_0bd876d6479cbc80c62c10c04069fe98.bindPopup(popup_eac7ad05dd1b85f074340338b71851e5)
+        ;
+
+        
+    
+    
+                marker_0bd876d6479cbc80c62c10c04069fe98.setIcon(icon_1f46d187312941d21d6850c295fbb6a1);
+            
+    
+            var poly_line_b01860d24a4a4e7912f222af0636983a = L.polyline(
+                [[50.928, 1.809], [50.951, 1.858]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+        var popup_8a249fc2981779c798a599f9e7179425 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9957dd0b2bb4d8600bd84bb6824d2dad = $(`<div id="html_9957dd0b2bb4d8600bd84bb6824d2dad" style="width: 100.0%; height: 100.0%;">Train ~10 min</div>`)[0];
+                popup_8a249fc2981779c798a599f9e7179425.setContent(html_9957dd0b2bb4d8600bd84bb6824d2dad);
+            
+        
+
+        poly_line_b01860d24a4a4e7912f222af0636983a.bindPopup(popup_8a249fc2981779c798a599f9e7179425)
+        ;
+
+        
+    
+    
+            var poly_line_2db4fb725604ccd355507c7ab9aaf394 = L.polyline(
+                [[50.951, 1.858], [50.96, 1.845]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+        var popup_fac5887cc3e4033a187b390f089824fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_251d63e64982f8b7804c5c8f53c73bb5 = $(`<div id="html_251d63e64982f8b7804c5c8f53c73bb5" style="width: 100.0%; height: 100.0%;">Train ~10 min</div>`)[0];
+                popup_fac5887cc3e4033a187b390f089824fb.setContent(html_251d63e64982f8b7804c5c8f53c73bb5);
+            
+        
+
+        poly_line_2db4fb725604ccd355507c7ab9aaf394.bindPopup(popup_fac5887cc3e4033a187b390f089824fb)
+        ;
+
+        
+    
+    
+            var marker_e85ccb7122bda4ff9f2bdd340914c9dd = L.marker(
+                [50.951, 1.858],
+                {
+}
+            ).addTo(map_daa6fb0550abdeafd0c38fd1bbb24f90);
+        
+    
+            var icon_cf5bc6850f7156f71e7be1aeccd683cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db218684dcdb359b811e4ec0f966b78e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43c544d5f92b2e267a698ac1eafb56b6 = $(`<div id="html_43c544d5f92b2e267a698ac1eafb56b6" style="width: 100.0%; height: 100.0%;">Gare de Calais Ville</div>`)[0];
+                popup_db218684dcdb359b811e4ec0f966b78e.setContent(html_43c544d5f92b2e267a698ac1eafb56b6);
+            
+        
+
+        marker_e85ccb7122bda4ff9f2bdd340914c9dd.bindPopup(popup_db218684dcdb359b811e4ec0f966b78e)
+        ;
+
+        
+    
+    
+                marker_e85ccb7122bda4ff9f2bdd340914c9dd.setIcon(icon_cf5bc6850f7156f71e7be1aeccd683cd);
+            
+</script>
+</html>
